@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Monty</string>
+    <string name="number_of_games">Number of games: %1$d</string>
+    <string name="wins_by_staying">Wins by staying: %1$d - %2$s%%</string>
+    <string name="wins_by_switching">Wins by switching: %1$d - %2$s%%</string>
+    <string name="play">Play</string>
+</resources>
