@@ -30,12 +30,12 @@ fun monty(totalGames: Int): Pair<Int, Int> {
     return Pair(stayWins, switchWins)
 }
 
-fun remainingBox(doorA: Int, doorB: Int): Int {
+fun remainingBox(boxA: Int, boxB: Int): Int {
     val rand = Random()
     var remainingBox: Int
     do {
         remainingBox = rand.nextInt(3)
-    } while (remainingBox == doorA || remainingBox == doorB)
+    } while (remainingBox == boxA || remainingBox == boxB)
 
     return remainingBox
 }
